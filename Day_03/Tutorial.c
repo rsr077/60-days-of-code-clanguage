@@ -2,6 +2,6 @@
 
 #include<stdio.h>
 
-main(){
+int main(){
     printf("Addition  =%d\nSubtraction =%d",2+3,5-4);
 }
