@@ -1,8 +1,8 @@
 #include<stdio.h>
-#define AREA(l,b)(1*b)
+#define AREA(l,b)(l*b)
 int main(){
     // Given lengths ll and l2
-    int l1 =10,l2 =5, area;
+    int ll = 10,l2 =5, area;
     // Find teh area using macros
     area = AREA(ll,l2);
 
