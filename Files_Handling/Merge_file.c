@@ -12,4 +12,16 @@ int main(){
         puts("Could not open files");
         exit(0);
     }
+    // Copy contents of first file to file3.txt
+    while ((c=fgetc(fp2))!=EOF)
+    fputc(c,fp3);
+    // Copy contents of second file to file3.txt
+    while ((c=fgetc(fp2))!=EOF)
+    fputc(c,fp3);
+    printf("Merged file1.txt and file2.txt into file3.txt");
+    fclose(fp1);
+    fclose(fp2);
+    fclose(fp3);
+    return 0;
+
 }
