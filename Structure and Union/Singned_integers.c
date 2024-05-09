@@ -1,8 +1,8 @@
 #include<stdio.h>
 struct date {
-    unsigned int d;
-    unsigned int m;
-    unsigned int y;
+    int d:5;
+    int m:4;
+    int y;
 };
 int main(){
     // printing size of structure 
