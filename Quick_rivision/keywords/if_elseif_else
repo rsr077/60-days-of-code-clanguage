@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(){
+    
+        int a=12;
+        if (a<11)
+        {
+            printf("A is less than 11");
+        }
+        else if{
+            printf("A is equal to  );
+        }
+        else 
+    
+    return 0;
+}
